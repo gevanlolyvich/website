@@ -1,9 +1,9 @@
 <?php
  
     //Variabel database
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername = "gevan.czd30rxjacjs.us-east-1.rds.amazonaws.com";
+    $username = "admin";
+    $password = "rezagevan";
     $dbname = "manajemen";
  
     $conn = mysqli_connect("$servername", "$username", "$password","$dbname");
